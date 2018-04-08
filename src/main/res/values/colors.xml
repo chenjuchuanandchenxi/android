@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 显示系统中的颜色 -->
+<resources>
+    <!-- Button按钮样式 :selector使用-->
+	<drawable name="drawable_button_normal">#4091F7</drawable>
+	<drawable name="drawable_button_pressed">#166BF0</drawable>
+	<!-- Button按前景色-->
+	<color name="color_button_fore">#FFFFFF</color>
+	
+	<!-- TextView连接样式 :selector使用-->
+	<color name="color_textview_normal">#000000</color>
+	<color name="color_textview_pressed">#166BF0</color>
+
+	<!-- 图片按钮样式:selector使用 -->
+	<drawable name="drawable_image_normal">#00000000</drawable>
+	<drawable name="drawable_image_pressed">#D9DADD</drawable>
+	
+	<drawable name="drawable_imageback_normal">#222A36</drawable>
+	<drawable name="drawable_imageback_pressed">#000000</drawable>
+	
+  	<!-- 上面标题底色 -->
+  	<color name="color_title_bg">#222A36</color>
+  	
+  	<!-- 工具底色 -->
+  	<color name="color_tool_bg">#E1E9F4</color>
+  	<!-- 工具线框 -->
+  	<color name="color_tool_line">#F8B737</color>
+  	<!-- 工具前样式：styles使用-->
+  	<color name="color_tool_normal">#000000</color>
+    <color name="color_tool_pressed">#279B12</color>
+    
+  	<!-- 窗体背景底色 -->
+  	<color name="color_bg">#EBEBEB</color>
+  	
+  	<!-- TextView等组件底色和前色 -->
+  	<color name="color_bg_controle">#FFFFFF</color>
+  	<color name="color_fore_controle">#FFFFFF</color>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 显示系统中大小 -->
+<resources>
+    <!--  layout统一边距大小 -->
+    <dimen name="activity_horizontal_margin">4dp</dimen>
+    <dimen name="activity_vertical_margin">4dp</dimen>
+    
+    <!-- 统一文本、输入框、按钮高度 -->
+    <dimen name="dimen_height">44dp</dimen>
+    <!-- 统一组件顶间隔-->
+	<dimen name="dimen_margintop">10dp</dimen>
+	<!-- 统一字体大小-->
+	<dimen name="size_text">14dp</dimen>
+	
+	<!-- 上面标题高度-->
+	<dimen name="dimen_height_title">45dp</dimen>
+	<!-- 标题文字大小-->
+	<dimen name="size_title">18dp</dimen>
+	
+	<!-- 关于我们文字大小-->
+	<dimen name="size_about_txtcontent">12dp</dimen>
+</resources>

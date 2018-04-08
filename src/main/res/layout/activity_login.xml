@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_bg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+	android:orientation="vertical" >
+   
+	<TextView
+        android:id="@+id/tvtitle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_height_title"
+        android:textSize="@dimen/size_title"
+  		android:gravity="center"
+        android:textColor="@color/color_button_fore"
+        android:background="@color/color_title_bg"
+        android:text="@string/login_title" />
+	
+	<ImageView
+		      android:id="@+id/imgdefault"
+		      android:layout_width="match_parent"
+		      android:layout_height="wrap_content"
+		      android:adjustViewBounds="true" 
+		      android:src="@drawable/log" 
+		      android:contentDescription="@string/app_img"/>
+	
+    <AutoCompleteTextView
+        android:id="@+id/txtusercode"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_height"
+        android:layout_marginTop="@dimen/dimen_margintop"
+        android:background="@color/color_bg_controle"
+        android:textSize="@dimen/size_text"
+        android:hint="@string/login_txtusercode" >
+        <requestFocus />
+    </AutoCompleteTextView>
+
+    <AutoCompleteTextView
+        android:id="@+id/txtuserpwd"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_height"
+        android:layout_marginTop="1dp"
+        android:background="@color/color_bg_controle"
+        android:textSize="@dimen/size_text"
+        android:hint="@string/login_txtuserpwd"
+        android:inputType="textPassword">
+    </AutoCompleteTextView>
+	
+    <CheckBox
+        android:id="@+id/chkremeber"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_height"
+        android:layout_marginTop="@dimen/dimen_margintop"
+        android:background="@color/color_bg_controle"
+        android:textSize="@dimen/size_text"
+        android:layout_gravity="right"
+        android:text="@string/login_chkremeber" />
+    
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimen_margintop"
+    android:orientation="horizontal" >
+	    <Button
+	        android:id="@+id/btnlogin"
+	        android:layout_width="match_parent"
+	        android:layout_height="@dimen/dimen_height"
+	        android:layout_weight="1"
+	        android:layout_marginRight="1dp"
+	        android:textColor="@color/color_button_fore"
+	        android:textSize="@dimen/size_text"
+	        android:layout_marginTop="@dimen/dimen_margintop"
+	        android:background="@drawable/selector_button"
+	        android:text="@string/login_btnlogin" />
+	    <Button
+	        android:id="@+id/btnoffline"
+	        android:layout_width="match_parent"
+	        android:layout_height="@dimen/dimen_height"
+	        android:layout_weight="1"
+	        android:layout_marginLeft="1dp"
+	        android:textColor="@color/color_button_fore"
+	        android:textSize="@dimen/size_text"
+	        android:layout_marginTop="@dimen/dimen_margintop"
+	        android:background="@drawable/selector_button"
+	        android:text="@string/login_btnoffline" />
+   </LinearLayout>
+
+   <LinearLayout
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+   android:layout_marginTop="20dp"
+   android:gravity="right"
+   android:orientation="horizontal" >
+	   <TextView
+	        android:id="@+id/btnurlset"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="right"
+	        android:textColor="@drawable/selector_textview"
+	        android:text="@string/login_btnurlset" />
+   </LinearLayout>
+</LinearLayout>
+

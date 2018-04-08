@@ -1,0 +1,17 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--系统应用基本样式-->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+    </style>
+    <!-- 本应用样式，集成上面基本. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+    </style>
+	<!-- 工具栏样式 -->
+	<style name="style_tool">
+	    <item name="android:textColor">@drawable/selector_toolcolor</item>
+	    <item name="android:gravity">center</item>
+	    <item name="android:background">@color/color_tool_bg</item>
+	    <item name="android:textSize">@dimen/size_text</item>
+	    <item name="android:button">@null</item>
+	</style>
+</resources>

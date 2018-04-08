@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 显示系统中的文本 -->
+<resources>
+    <!-- 菜单标题 -->
+	<string name="app_menu">菜单</string>
+	<!-- 系统标题 -->
+    <string name="app_name">力矩扳手系统</string>
+    <!-- 背景提示 -->
+    <string name="app_img">背景图片</string>
+    <!-- 显示日志 -->
+    <string name="show_log">显示日志</string>
+    <string name="isreceive">接收数据</string>
+    
+    <!-- 窗口标题 -->
+    <string name="default_titleon">力矩扳手-连机模式</string>
+    <string name="default_titleoff">力矩扳手-脱机模式</string>
+    <string name="urlset_title">力矩扳手-参数设置</string>
+    <string name="portset_title">力矩扳手-蓝牙参数</string>
+    <string name="portedit_title">力矩扳手-力矩确认</string>
+    <string name="portinit_title">力矩扳手-初始设备</string>
+    <string name="about_title">力矩扳手-关于我们</string>
+    <string name="updpwd_title">力矩扳手-修改密码</string>
+    <string name="porteditbitmap_title">图片缩放</string>
+    <string name="login_title">系统登录</string>
+    <string name="portfact_title">力矩操作</string>
+    <!-- 登录窗口 -->
+    <string name="login_txtusercode">请输入您的账户</string>
+    <string name="login_txtuserpwd">请输入账户密码</string>
+	<string name="login_btnlogin">联机登录</string>
+	<string name="login_btnoffline">脱机登录</string>
+	<string name="login_chkremeber">记住登录信息</string>
+	<string name="login_btnurlset">连接设置</string>
+	<!-- 关于我们 -->
+	<string name="about_btnversion">获取最新版本</string>
+	<string name="about_btnclear">清空本地数据</string>
+	<string name="about_txtcontent">
+		&#160;&#160;&#160;&#160;&#160;&#160;&#160;青岛中青电子软件有限公司，坐落于美丽的海滨城市青岛，注册资金1000万，是中国工信部双软认证企业。是一家专业从事铁路电子装备设计、开发、生产、制造、销售和服务，嵌入式系统研发，项目软件研发，管理软件实施及IT集成五大业务领域的独资公司。 公司生产基地坐落于中国山东省青岛市城阳区城西工业园内，占地面积2700余平方米，其中厂房面积2200平方米。现有员工30余人，其中拥有中高级以上技术职称6人，大专以上学历15人，相关行业技术等级证书及资格证书持有者10人。\n
+		&#160;&#160;&#160;&#160;&#160;&#160;&#160;公司经过近八年来的持续发展，目前青岛中青电子软件有限公司已成为国内同行业中具有竞争力的信息化开发整体解决方案提供商。公司保持着与国内各铁路局的技术交流与良好合作，以新的产品设计理念保证产品设计处于国内同类企业领先水平。\n
+		&#160;&#160;&#160;&#160;&#160;&#160;&#160;公司生产与铁路电子装备相关的主要产品有：客车车载影视系统（车载影音系统服务器、机顶盒、信号放大器、调制器、信号切换器、影音播放软件、信息显示软件、视频点播软件、影音系统模拟测试软件、影音系统车上信号源、影音系统测试单元、车载液晶电视、测试台、地铁试验台）的设计、开发、生产、制造、销售和服务。产品性能完全符合相关技术规范以及国家和铁路总公司相关标准要求。经长期运用试验，其技术先进、质量可靠、性能稳定完全满足用户需求，获得了用户的广泛好评。 公司已经通过IRIS质量管理体系认证、ISO9001质量管理体系认证、ISO14000环境认证。 公司配备了先进的生产工装设备，先后花费60余万元引进一系列自动化工具。并自行研发出多台测试工装，以不断提高自己的科研力量和适应生产的需要。 公司将奉行“技术领先、区域覆盖、环境友好、和谐发展”的经营方针，关注顾客利益与社会效益，不断完善及改进管理体系，提高产品及服务质量，从而实现企业、顾客、行业的共同发展壮大。
+	</string>
+	<!-- 引导窗口 -->
+	<string name="guide3_btnenter">进入系统</string>
+	<!-- 主页工具栏 -->
+	<string name="tool_btnmain">首页</string>
+	<string name="tool_btnabout">关于我们</string>
+	<!-- 主页窗口 -->
+	<string name="default_tvdowncount">待下载任务数</string>
+	<string name="default_tvupcount">待上传任务数</string>
+	<string name="default_btndown">下载任务</string>
+	<string name="default_btnup">上传力矩</string>
+	<string name="default_btnok">力矩确认</string>
+	<string name="default_btnblue">蓝牙设置</string>
+	<string name="default_btninit">初始设备</string>
+	<string name="default_btnupdpwd">修改密码</string>
+	<string name="default_btnexit">退出系统</string>
+	<string name="default_tvwaitcount">未完成任务数</string>
+	<!-- 蓝牙设置 -->
+	<string name="portset_tvpaired">本机配对蓝牙</string>
+	<string name="portset_tvlist">我的工作蓝牙</string>
+	<!-- 初始设备-->
+	<string name="portinit_btndel">清空数据</string>
+	<string name="portinit_btninit">返回出厂值</string>
+	<string name="portinit_btnprec">判断精度</string>
+	<string name="portinit_btnunit">力矩单位</string>
+	<string name="portinit_btnstore">存储模式</string>
+	<string name="portinit_btntime">时间同步</string>
+	<string name="portinit_btnrun">开始运行</string>
+	<string name="portinit_btnstop">停止运行</string>
+	<!-- 修改密码 -->
+	<string name="updpwd_txtoldpassword">请输入原来密码</string>
+	<string name="updpwd_txtnewpassword">请输入新的密码</string>
+	<string name="updpwd_txtreppassword">请重复新的密码</string>
+	<string name="updpwd_btnsave">修改密码</string>
+	<!-- 修改密码 -->
+	<string name="portfact_btnrun">开始运行</string>
+	<string name="portfact_btnstop">停止运行</string>
+	<!-- 参数设置 -->
+	<string name="urlset_txturl">请输入服务器地址</string>
+	<string name="urlset_btnok">确认</string>
+	<!-- 确认列表 -->
+	<string name="portedit_btnenter">执行选中任务</string>
+</resources>

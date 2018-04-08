@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 文本按下和弹起 -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_pressed="true" android:color="@color/color_textview_pressed"></item>
+    <item android:color="@color/color_textview_normal"></item>
+</selector>
+

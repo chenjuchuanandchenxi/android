@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_bg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical" >
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+		<ImageView
+	    android:id="@+id/imgback"
+	    android:layout_width="60dp"
+	    android:layout_height="@dimen/dimen_height_title"
+	    android:src="@drawable/back"
+	    android:background="@drawable/selector_imageback"
+	    android:contentDescription="@string/app_img" />
+	    <TextView
+	        android:id="@+id/Tvtitle"
+	        android:layout_width="wrap_content"
+	        android:layout_height="@dimen/dimen_height_title"
+	        android:textSize="@dimen/size_title"
+	  		android:gravity="center"
+	        android:layout_weight="1"
+	        android:textColor="@color/color_button_fore"
+	        android:background="@color/color_title_bg"
+	        android:text="@string/portfact_title" />
+	</LinearLayout>
+    
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimen_margintop"
+    android:background="@color/color_bg_controle"
+    android:orientation="vertical" >
+	    <Spinner
+	        android:id="@+id/spblue"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"/>
+	    <Button
+	        android:id="@+id/btnrun"
+	        android:layout_width="match_parent"
+	        android:layout_height="@dimen/dimen_height"
+	        android:layout_marginLeft="1dp"
+	        android:textColor="@color/color_button_fore"
+	        android:textSize="@dimen/size_text"
+	        android:background="@drawable/selector_button"
+	        android:text="@string/portinit_btnrun" />
+    </LinearLayout>
+    
+	<ProgressBar
+        android:id="@+id/bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+  
+    <LinearLayout
+	 android:layout_width="match_parent"
+	 android:layout_height="wrap_content"
+	 android:orientation="vertical" > 
+	 	<LinearLayout
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:orientation="horizontal" > 
+	        <CheckBox
+	        android:id="@+id/cklog"
+	        android:layout_width="match_parent"
+	        android:layout_height="@dimen/dimen_height_title"
+	        android:background="@color/color_bg_controle"
+	        android:checked="false"
+	        android:layout_weight="1.0"
+	        android:layout_gravity="right"
+	        android:text="@string/show_log" />
+	        <CheckBox
+	        android:id="@+id/ckreceive"
+	        android:layout_width="match_parent"
+	        android:layout_height="@dimen/dimen_height_title"
+	        android:background="@color/color_bg_controle"
+	        android:checked="true"
+	        android:layout_weight="1.0"
+	        android:layout_gravity="right"
+	        android:text="@string/isreceive" />
+        </LinearLayout>
+		<TextView
+	        android:id="@+id/tvlog"
+	        android:layout_width="match_parent"
+	        android:layout_height="100dp"
+	        android:layout_weight="1"
+	        android:singleLine="false"
+	        android:lines="6"
+	        android:visibility="gone"
+	        android:scrollbars="vertical"
+	        android:background="@color/color_bg_controle"
+	        android:layout_marginTop="2dp"
+	        android:text="" />
+	</LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/dimen_margintop"
+	    android:layout_height="wrap_content"
+	    android:background="@color/color_bg_controle"
+	    android:orientation="vertical">
+	    <TextView
+	        android:id="@+id/txtbillcode"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="@dimen/size_text"
+	        android:gravity="center_vertical|left"
+	        android:layout_weight="1.0"
+	        android:text="2" />  
+        <TextView
+	        android:id="@+id/txtinvstd"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="@dimen/size_text"
+	        android:gravity="center_vertical|left"
+	        android:layout_weight="1.0"
+	        android:layout_marginTop="2dp"
+	        android:text="3" />
+	    <TextView
+	        android:id="@+id/txtposname"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="@dimen/size_text"
+	        android:gravity="center_vertical|left"
+	        android:layout_weight="1.0"
+	        android:layout_marginTop="2dp"
+	        android:text="4" />  
+		<LinearLayout android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="2dp"
+	    android:orientation="horizontal">
+		    <TextView
+		        android:id="@+id/txtqty"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textSize="@dimen/size_text"
+		        android:gravity="center_vertical|left"
+		        android:layout_weight="1.0"
+		        android:text="5" />        
+		    <TextView
+		        android:id="@+id/txtlimitname"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textSize="@dimen/size_text"
+		        android:gravity="center_vertical|left"
+		        android:layout_weight="1.0"
+		        android:text="6" />   
+		    <TextView
+		        android:id="@+id/txtstrength"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textSize="@dimen/size_text"
+		        android:gravity="center_vertical|left"
+		        android:layout_weight="1.0"
+		        android:text="7" />
+		</LinearLayout>              
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvlist"
+        android:background="@color/color_bg_controle"
+        android:layout_marginTop="2dp"
+	    android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+</LinearLayout>
